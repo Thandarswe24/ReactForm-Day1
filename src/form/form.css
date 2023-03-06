@@ -1,0 +1,89 @@
+.bgStyle{
+    background-image: url(../assets/vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formStyle {
+    background-color: var(--secondary-blacks);
+    width: 27rem;
+    position: relative;
+    border-radius: 16px;
+    padding-inline: 16px;
+    padding-block: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    gap: 0.8rem 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .header{
+    display: flex;
+    align-items: center;
+    color: var( --primary-clr-4);
+  }
+
+input,
+textarea,
+select {
+  background: var(--white-light);
+  border: none;
+  border-radius: 5px;
+  outline-color: var(--secondary);
+  width: 100%;
+  padding: 7px 6px;
+  /* outline: none; */
+  caret-color: var(--primary-clr);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  height: 1.9rem;
+}
+select > option {
+  color: var(--primary-clr-4);
+  font-weight: 600;
+}
+textArea {
+  height: 5rem;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--secondary-black);
+  }
+  .wrapper {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .wrapperInner {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+.button {
+    all: unset;
+    padding-block: 8px;
+    background: var(--primary-clr);
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+  }

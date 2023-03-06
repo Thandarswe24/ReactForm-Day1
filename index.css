@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-clr: 	hsl(358, 100%, 68%);
+    --primary-clr-4:  hsl(16, 97%, 58%);
+    --secondary: hsl(175, 100%, 33%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(100, 100%, 100%);
+    --white-light: hsl(203, 29%, 95%);
+    --secondary-black:	hsl(0, 0%, 28%)
+    --hover-gray:	hsl(0, 0%, 46%)
+  }
+  
+  * {
+ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
